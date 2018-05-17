@@ -69,7 +69,9 @@ body {
     background-image: url(../images/light-grey-terrazzo/light-grey-terrazzo.png);
     line-height: normal;
 }
-.container {
+.container,
+.photo-container,
+.contact-container {
     width: 960px;
     margin: auto;
     margin-top: 30px;
@@ -221,45 +223,56 @@ either 980px or less.
 */
 @media screen and (max-width: 980px) {
 
-.container {
+.container,
+.contact-container,
+.photo-container {
     width: 600px;
     margin-left: 5%;
     line-height: 200%;      
 }     
 .header-container {
     width: 90%;
+    padding: 0 0 2% 0;
 }
 h1 {
     font-weight: bold;
+    margin-bottom: 0;
 }
 .header-box {
-    width: 35%;
+    width: 40%;
+    padding: 2.25%;
 }
 #bio-image {
     height: 95%;
 }
-.row {
-    padding-bottom: 5px;
-}
 #portrait,
 #block {
     width: 90%;
+    
+}
+#portrait {
+    height: 70%;
+    margin: 8% 0 1% 0;
 }
 .text-block {
-    bottom: 5%;
+    bottom: 10%;
 }
+
 input[type=text], 
 textarea {
     margin-top: 0;
     margin-bottom: 0;
-
 }
 #form {
     height: 5%;
 }
-.primary-footer {
-    padding: 4%;
+header {
+    padding: 0 0 2% 0;
 }
+.anchors {
+    padding: 1% 0 0 0;
+}
+
 
 
 
@@ -274,7 +287,9 @@ either 768px or less.
 */
 @media screen and (max-width: 768px) {
 
-.container {
+.container, 
+.contact-container,
+.photo-container {
     width: 720px;
     margin-left: 2%;
     line-height: 200%;   
@@ -284,9 +299,30 @@ either 768px or less.
 }     
 .header-box {
     width: 45%;
+    padding: 2.4%;
 }
 #bio-image {
     width: 50%;
+}
+header {
+    border-bottom: 2px solid #cccccc;
+    
+}
+h1 {
+    margin-bottom: 2%;
+}
+#portrait {
+    width: 75%;
+    height: 60%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+#block {
+    width: 75%;
+}
+.text-block {
+    bottom: 15%;
+    padding: 2% 0 2% 0;
 }
 
 
@@ -311,7 +347,7 @@ either 640px or less.
 .photo-container {
     width: 575px;
     margin: auto;
-    margin-top: 18%;
+    margin-top: 15%;
 }
 .header-container {
     float: left;
@@ -337,7 +373,6 @@ header {
     margin-bottom: 0;
 }
 .primary-footer {
-    position: static;
     padding: 5%;
 }
 .contact-container {
@@ -358,7 +393,6 @@ textarea {
 }
 #portrait {
     width: 100%;
-    height: 75%;
     margin-bottom: 3%;
     margin-top: 3%;
 }
@@ -367,20 +401,8 @@ textarea {
 }
 .text-block {
     bottom: 15%;
-    padding: 5% 0 5% 0;
+    padding: 3% 0 3% 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
     
