@@ -71,7 +71,7 @@ body {
     margin-top: 30px;
 }
 
-#main-bio,
+
 #bio-image {
     float: left;
 }
@@ -85,6 +85,7 @@ body {
 
 #main-bio h1 {
     padding-bottom: 20px;
+    border-bottom: 2px solid gainsboro;
 }
 #bio-info {
     margin-top: 20px;
@@ -211,30 +212,14 @@ either 980px or less.
 */
 @media screen and (max-width: 980px) {
      
-     .container {
-         width: 600px;
-         margin-left: 50px;
-     }
-     aside {
-        background-color: #4aaaa5;
-        color: #ffffff;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin: 0px 700px 0px 50px;
-        text-align: center;
-    }
-    .anchors {
-        position: absolute;
-        top: 20px;
-        right: 1%;
-        width: 225px;
-        margin: 0px 2px 0px 2px;
-        padding: 0px 5px 0px 0px;
-    }
-    #bio-image {
-        width: 200px;
-        height: 150px;
-    }
+.container {
+    width: 600px;
+    
+}        
+     
+}
+.header-container {
+    width: 95%;
 }
 
 
@@ -255,6 +240,19 @@ either 768px or less.
 /* These rules take effect when the browser's width is 
 either 640px or less.
 */
+
+.container {
+    
+}
+
+
+.header-box {
+    width: 100%;
+}
+.header-container {
+    width: 100%;
+}
+
     
 
 
