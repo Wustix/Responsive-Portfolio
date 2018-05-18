@@ -129,6 +129,16 @@ body {
     border-top: 5px solid #4aaaa5;
     padding: 20px 0px 20px 0px;
 }
+.primary-footer-1 { 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    padding: 20px 0px 20px 0px;
+}
 
 /*
 =====Typography==================================
@@ -152,19 +162,24 @@ p,
     clear: both;
 }
 .pic {
-    position: relative;   
+    position: relative; 
+    margin-bottom: 10px;  
 }
 .pic-2 {
     position: relative;
+    margin-bottom: 10px;
 }
 .pic-3 {
     position: relative;
+    margin-bottom: 10px;
 }
 .pic-4 {
     position: relative;
+    margin-bottom: 10px;
 }
 .pic-5 {
     position: relative;
+    margin-bottom: 10px;
 }
 .pic-6 {
     position: relative;
@@ -372,7 +387,8 @@ header {
     padding: 4%;
     margin-bottom: 0;
 }
-.primary-footer {
+.primary-footer-1 {
+    position: static;
     padding: 5%;
 }
 .contact-container {
