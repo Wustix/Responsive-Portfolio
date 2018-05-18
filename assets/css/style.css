@@ -393,6 +393,7 @@ header {
 }
 .contact-container {
     margin-top: 18%;
+    width: 600px;
     
 }
 input[type=text],
