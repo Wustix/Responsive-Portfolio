@@ -66,7 +66,7 @@ h1 {
 */
 
 body { 
-    background-image: url(../images/light-grey-terrazzo/light-grey-terrazzo.png);
+    background-image: url(../images/vintage-concrete/vintage-concrete.png);
     line-height: normal;
 }
 .container,
@@ -76,8 +76,6 @@ body {
     margin: auto;
     margin-top: 30px;
 }
-
-
 #bio-image {
     float: left;
 }
@@ -88,7 +86,6 @@ body {
     padding: 20px;
     overflow: auto;
 }
-
 #main-bio h1 {
     padding-bottom: 20px;
     border-bottom: 2px solid gainsboro;
@@ -96,12 +93,10 @@ body {
 #bio-info {
     margin-top: 20px;
 }
-
 #bio-image {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
 #images {
     background: #ffffff;
     padding: 20px;
@@ -162,27 +157,26 @@ p,
     clear: both;
 }
 .pic {
-    position: relative; 
-    margin-bottom: 10px;  
+    position: relative;   
 }
 .pic-2 {
     position: relative;
-    margin-bottom: 10px;
+    margin: 35px 0px 35px 0px;
 }
 .pic-3 {
     position: relative;
-    margin-bottom: 10px;
+    margin: 35px 0px 35px 0px;
 }
 .pic-4 {
     position: relative;
-    margin-bottom: 10px;
 }
 .pic-5 {
     position: relative;
-    margin-bottom: 10px;
+    margin: 35px 0px 35px 0px;
 }
 .pic-6 {
     position: relative;
+    margin: 35px 0px 35px 0px;
 }
 .text-block {
     position: absolute;
@@ -192,14 +186,14 @@ p,
     padding: 10px 0px 10px 0px;
     bottom: 5%;
     margin: 0px;
-    width: 200px;
+    width: 300px;
 }
 .column-1-6 {
-    width: 50%;
+    width: 36%;
     display: inline-block;
 }
 .column-2-6 {
-    width: 50%;
+    width: 64%;
     float: right;
 
 }
